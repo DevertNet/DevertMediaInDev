@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>download_url</name>
+            <label lang="de">Download URL (http://test.com/)</label>
+            <label lang="en">Download URL (http://test.com/)</label>
+            <value></value>
+            <description lang="de">URL des Systems mit Bildern. Slash am Ende ist wichtig!</description>
+            <description lang="en">URL of the system with images. Slash at the end is important!</description>
+        </element>
+    </elements>
+</config>
